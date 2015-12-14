@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie-scm
+FROM buildpack-deps:jessie-curl
 
 COPY sources.list /etc/apt/sources.list
 
